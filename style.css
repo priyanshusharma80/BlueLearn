@@ -1,0 +1,226 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+    color: white;
+    font-family: 'Manrope', sans-serif;
+}
+
+
+.icon>p{
+    font-weight: bold;
+    font-size: 29px;
+    letter-spacing: 1px;
+    margin: 5px 40px;
+}
+
+ul > li > a{
+    text-decoration: none;
+}
+
+
+.icon span{
+    color: blue;
+}
+
+.icon{
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navigation{
+    display: flex;
+    padding: 10px 0px;
+    justify-content: space-between;
+    background-color: #121212;
+    background-color: #101c40;
+}
+
+.navigation ul li{
+    font-weight: bold;
+    list-style: none;
+    cursor: pointer;
+    text-decoration: none;
+    margin: 10px 10px;
+}
+
+.navigation ul{
+    padding-right:50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 1px;
+
+}
+
+.mainbody{
+    padding: 20px 0px;
+    height: 78vh;
+    justify-content: space-between;
+    background-color: #121212;
+    background-color: #101c40;
+}
+
+.mainbody .content{
+    /* border: 2px solid red; */
+    width: 50%;
+    margin: 0vw 1vh;
+    color: white;
+    flex-direction: column;
+}
+
+.headline span{
+    color: rgb(243, 134, 10);
+}
+
+.mainbody .headline{
+    font-size: 45px;
+    line-height: 4rem;
+    font-weight: bolder;
+    letter-spacing: 2px;
+}
+
+
+.mainbody .contentimage{
+    margin: 0vw 1vh;
+}
+
+.contentimage img{
+    width: 83vh;
+    border-radius: 20px;
+}
+
+.content{
+    justify-content: flex-start;
+}
+
+.communitymembers{
+    background-color: rgb(46, 43, 43);
+    background-color: rgb(12 24 60);
+    height: 30vh;
+    padding: 10px 0px;
+    flex-direction: column;
+}
+
+h2{
+    letter-spacing: 1.5px;
+    margin-bottom: 0.5vh;
+}
+
+.communitymembers .icons{
+    font-size: 8vw;
+    margin: 0px 3vw;
+    margin-bottom: 30px;
+}
+
+.appleicon{
+    padding-top: 0px;
+}
+
+
+.buttons{
+    margin-top: 20px;
+}
+
+.btn{
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 3rem;
+    background-color: rgb(12 24 60);
+    color: rgb(255, 255, 255);
+    border: none;
+    font-weight: 8px;
+}
+
+.portfolios{
+    background-color: #101c40;
+}
+
+.our-services{
+    background-color: #122458;
+}
+
+.service1 img{
+    width: 100%;
+    border-radius: 20px 20px 0px 0px;
+    margin-bottom: 5px;
+}
+
+.service1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    width: 30vw;
+    border: 2px solid white;
+    border-radius: 20px;
+    margin: 20px;
+}
+
+.channelMgmt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.thumbnails{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #101c40;
+}
+
+.designs img{
+    width: 18vw;
+    border-radius: 10px;
+    margin: 4px;
+    border: 1px solid white;
+}
+
+
+form{
+    background-color: rgb(12 24 60);
+}
+
+form input{
+    color: black;
+}
+
+.our-mgmt{
+    background-color: rgb(12 24 60);
+    flex-direction: column;
+}
+
+.hr{
+    background-color: #122458;
+    margin: 20px 0px;
+    color: #122458;
+}
+
+footer{
+    background-color: #080806;
+    padding: 6px;
+}
+
+footer span{
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.service1 p{
+    padding: 5px 10px 10px 10px;
+}
+
+.wordpressMgmt{
+    background-color: #122458;
+}
+

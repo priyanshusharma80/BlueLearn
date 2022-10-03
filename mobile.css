@@ -1,0 +1,79 @@
+.mainbody{
+    flex-direction: column;
+    height: auto;
+}
+
+.mainbody .headline{
+    font-size: 35px;
+    line-height: 3rem;
+    font-weight: bolder;
+    letter-spacing: 2px;
+}
+
+.mainbody .content{
+    width: 80%;
+    margin: 7vw 1vh;
+    color: white;
+    flex-direction: column;
+    text-align: center;
+}
+
+.contentimage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.navigation{
+    flex-direction: column;
+}
+
+.service1 p{
+    font-size: 20px;
+}
+
+.service1{
+    width: 77vw;
+}
+
+.our-services{
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.channelMgmt{
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.padding-topbottom {
+    padding: 20px 0px;
+}
+
+.communitymembers h2{
+    padding-bottom: 28px;
+}
+
+section h2{
+    font-size: 2rem;
+}
+
+.icon{
+    margin-left: 0px;
+}
+
+.designs img {
+    width: 17vw;
+}
+
+
+.contentimage img {
+    width: 100%;
+}
+
+.navigation ul{
+    padding-right: 0px;
+}
